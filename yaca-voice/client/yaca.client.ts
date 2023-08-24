@@ -47,7 +47,7 @@ const translations = {
     'WAIT_GAME_INIT': ''
 }
 
-class YaCAClientModule {
+export class YaCAClientModule {
     static instance: null | YaCAClientModule = null;
 
     localPlayer: PlayerMp = mp.players.local;
